@@ -21,7 +21,6 @@ public class CarSpawner : MonoBehaviour
 
     void Start()
     {
-        // spawn mobil secara periodik
         InvokeRepeating(nameof(SpawnCar), 1f, spawnInterval);
     }
 
@@ -29,7 +28,6 @@ public class CarSpawner : MonoBehaviour
     {
         if (carCount >= maxCars) return;
 
-        // Pilih rute acak
         int r = Random.Range(0, routes.Length);
         Route selectedRoute = routes[r];
 
@@ -41,17 +39,33 @@ public class CarSpawner : MonoBehaviour
 
         // Pilih mobil acak
         int randCar = Random.Range(0, carPrefabs.Length);
-        GameObject car = Instantiate(
-            carPrefabs[randCar],
-            selectedRoute.spawnPoint.position,
-            selectedRoute.spawnPoint.rotation
+        Transform firstWP = selectedRoute.waypointManager.waypoints[0];
+        Transform nextWP = null;
+
+        // Cari waypoint berikutnya untuk arah mobil
+        if (selectedRoute.waypointManager.waypoints.Length > 1)
+            nextWP = selectedRoute.waypointManager.waypoints[1];
+        else
+            nextWP = firstWP; // fallback kalau cuma satu titik
+
+        // Hitung rotasi awal mobil menghadap waypoint berikutnya
+        Quaternion startRotation = Quaternion.LookRotation(
+            (nextWP.position - firstWP.position).normalized,
+            Vector3.up
         );
 
-        // Assign WaypointManager ke mobil (DI SINI!)
+        // Spawn mobil di posisi dan arah yang sesuai jalur
+        GameObject car = Instantiate(
+            carPrefabs[randCar],
+            new Vector3(firstWP.position.x, firstWP.position.y, firstWP.position.z),
+            startRotation
+        );
+
+        // Assign waypoint ke mobil
         NPCCar npc = car.GetComponent<NPCCar>();
         npc.waypointManager = selectedRoute.waypointManager;
 
         carCount++;
-        Destroy(car, 60f); // auto hapus setelah 60 detik
+        Destroy(car, 60f);
     }
 }
