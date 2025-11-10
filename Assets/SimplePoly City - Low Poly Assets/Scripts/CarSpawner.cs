@@ -64,8 +64,14 @@ public class CarSpawner : MonoBehaviour
         // Assign waypoint ke mobil
         NPCCar npc = car.GetComponent<NPCCar>();
         npc.waypointManager = selectedRoute.waypointManager;
+        npc.spawner = this;
 
         carCount++;
         Destroy(car, 60f);
     }
+
+    public void NotifyCarDestroyed()
+{
+    carCount = Mathf.Max(0, carCount - 1);
+}
 }

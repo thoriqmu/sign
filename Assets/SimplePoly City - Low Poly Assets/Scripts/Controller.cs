@@ -96,4 +96,9 @@ public class Controller : MonoBehaviour
         sfxSource.clip = crashClip;
         sfxSource.Play();
     }
+
+        public float GetCurrentSpeed()
+    {
+        return rb.linearVelocity.magnitude;
+    }
 }
