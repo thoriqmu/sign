@@ -3,23 +3,48 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    [Header("Scene Name")]
-    public string gameSceneName = "Level 1"; // ganti sesuai nama scene gameplay
+    [Header("Panels")]
+    public GameObject mainPanel;           // Panel berisi tombol Start & Exit
+    public GameObject levelSelectPanel;    // Panel berisi tombol Level 1–4
 
-    // Tombol Start ditekan
-    public void StartGame()
+    [Header("Backgrounds")]
+    public GameObject mainBackground;      // Gambar background menu utama
+    public GameObject levelBackground;     // Gambar background level select
+
+    void Start()
     {
-        // SceneManager.LoadScene(gameSceneName);
-        SceneManager.LoadScene(1);
+        ShowMainMenu();
     }
 
-    // Tombol Exit ditekan
+    public void ShowMainMenu()
+    {
+        mainPanel.SetActive(true);
+        levelSelectPanel.SetActive(false);
+
+        if (mainBackground != null) mainBackground.SetActive(true);
+        if (levelBackground != null) levelBackground.SetActive(false);
+    }
+
+    public void ShowLevelSelect()
+    {
+        mainPanel.SetActive(false);
+        levelSelectPanel.SetActive(true);
+
+        if (mainBackground != null) mainBackground.SetActive(false);
+        if (levelBackground != null) levelBackground.SetActive(true);
+    }
+
+    public void LoadLevel(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName);
+    }
+
     public void ExitGame()
     {
         #if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false; // untuk Editor
+        UnityEditor.EditorApplication.isPlaying = false;
         #else
-        Application.Quit(); // untuk build
+        Application.Quit();
         #endif
     }
 }
