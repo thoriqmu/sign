@@ -4,13 +4,17 @@ public class NPCCar : MonoBehaviour
 {
     public float maxSpeed = 10f;
     public float currentSpeed;
-    public float safeDistance = 5f;
+    public float safeDistance = 10f;
+    public float brakeStrength = 3f;
     [HideInInspector] public WaypointManager waypointManager;
+    [HideInInspector] public CarSpawner spawner;   // <<— Tambahan
 
     private int currentIndex = 0;
+    private Rigidbody rb;
 
     void Start()
     {
+        rb = GetComponent<Rigidbody>();
         if (maxSpeed <= 0) maxSpeed = 8f;
         currentSpeed = maxSpeed;
     }
@@ -26,29 +30,45 @@ public class NPCCar : MonoBehaviour
         Transform target = waypointManager.waypoints[currentIndex];
         Vector3 dir = (target.position - transform.position).normalized;
 
-        // Deteksi mobil lain di depan
-        if (Physics.Raycast(transform.position + Vector3.up * 0.5f, transform.forward, out RaycastHit hit, safeDistance))
+        // sensor ke depan
+        float desiredSpeed = maxSpeed;
+        if (Physics.Raycast(transform.position + Vector3.up * 0.5f + transform.forward * 1.5f,
+                            transform.forward, out RaycastHit hit, safeDistance))
         {
-            if (hit.collider.GetComponent<NPCCar>() != null)
+            var otherNpc = hit.collider.GetComponent<NPCCar>();
+            if (otherNpc != null)
             {
-                currentSpeed = Mathf.Lerp(currentSpeed, 0f, Time.deltaTime * 3);
+                desiredSpeed = Mathf.Min(desiredSpeed, otherNpc.currentSpeed * 0.9f);
             }
-        }
-        else
-        {
-            currentSpeed = Mathf.Lerp(currentSpeed, maxSpeed, Time.deltaTime);
+
+            var player = hit.collider.GetComponent<Controller>();
+            if (player != null)
+            {
+                desiredSpeed = Mathf.Min(desiredSpeed, player.GetCurrentSpeed() * 0.9f);
+            }
+
+            float distanceFactor = Mathf.Clamp01(hit.distance / safeDistance);
+            desiredSpeed *= distanceFactor;
         }
 
-        // Gerak mobil
+        // Haluskan perubahan kecepatan
+        currentSpeed = Mathf.MoveTowards(currentSpeed, desiredSpeed, brakeStrength * Time.deltaTime);
+
+        // Gerak
         transform.position += dir * currentSpeed * Time.deltaTime;
         transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(dir), Time.deltaTime * 2f);
 
-        // Cek waypoint berikut
+        // Ganti waypoint
         if (Vector3.Distance(transform.position, target.position) < 1f)
         {
             currentIndex++;
             if (currentIndex >= waypointManager.waypoints.Length)
             {
+                // kasih tahu spawner untuk kurangi jumlah
+                if (spawner != null)
+                {
+                    spawner.NotifyCarDestroyed();
+                }
                 Destroy(gameObject);
             }
         }

@@ -106,8 +106,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NPCCar
   maxSpeed: 10
   currentSpeed: 0
-  safeDistance: 5
+  safeDistance: 30
+  brakeStrength: 3
   waypointManager: {fileID: 0}
+  spawner: {fileID: 0}
 --- !u!54 &-4806983391611602493
 Rigidbody:
   m_ObjectHideFlags: 0
