@@ -16,8 +16,17 @@ public class TrafficLightController : MonoBehaviour
     public Material LightsOnMat;
     public Material LightsOffMat;
 
+    public enum LightState { Red, Yellow, Green }
+    [HideInInspector] public LightState currentState = LightState.Red;
+
     public void SetLight(bool red, bool yellow, bool green)
     {
+        // === SIMPAN STATUS SAAT INI ===
+        if (red) currentState = LightState.Red;
+        else if (yellow) currentState = LightState.Yellow;
+        else if (green) currentState = LightState.Green;
+
+        // === UBAH MATERIAL ===
         if (redRenderer)
             redRenderer.material = red ? LightsOnMat : LightsOffMat;
         if (yellowRenderer)
@@ -25,8 +34,14 @@ public class TrafficLightController : MonoBehaviour
         if (greenRenderer)
             greenRenderer.material = green ? LightsOnMat : LightsOffMat;
 
+        // === AKTIFKAN HALO ===
         if (redHalo) redHalo.SetActive(red);
         if (yellowHalo) yellowHalo.SetActive(yellow);
         if (greenHalo) greenHalo.SetActive(green);
     }
+
+    // Getter status lampu
+    public bool IsRed() => currentState == LightState.Red;
+    public bool IsGreen() => currentState == LightState.Green;
+    public bool IsYellow() => currentState == LightState.Yellow;
 }

@@ -15,35 +15,49 @@ public class Level1TrafficSystemManager : MonoBehaviour
     public float yellowTime = 2f;
     public float allRedTime = 1.5f;
 
+    private Coroutine controlRoutine;
+
     void Start()
     {
-        StartCoroutine(ControlTraffic());
+        controlRoutine = StartCoroutine(ControlTraffic());
     }
 
     IEnumerator ControlTraffic()
     {
         while (true)
         {
-            // === Grup A Nyala ===
+            // === 1️⃣ Grup A Nyala Hijau ===
+            Debug.Log("🚦 FASE 1: GROUP A → HIJAU, GROUP B → MERAH");
             SetGroup(groupA, false, false, true); // hijau
             SetGroup(groupB, true, false, false); // merah
             yield return new WaitForSeconds(greenTime);
 
-            SetGroup(groupA, false, true, false); // kuning
+            // === 2️⃣ Grup A Kuning ===
+            Debug.Log("⚠️ FASE 2: GROUP A → KUNING");
+            SetGroup(groupA, false, true, false);
             yield return new WaitForSeconds(yellowTime);
 
-            SetGroup(groupA, true, false, false); // merah semua
+            // === 3️⃣ Semua Merah ===
+            Debug.Log("🛑 FASE 3: SEMUA MERAH (CLEAR TIME)");
+            SetGroup(groupA, true, false, false);
+            SetGroup(groupB, true, false, false);
             yield return new WaitForSeconds(allRedTime);
 
-            // === Grup B Nyala ===
-            SetGroup(groupB, false, false, true); // hijau
-            SetGroup(groupA, true, false, false); // merah
+            // === 4️⃣ Grup B Nyala Hijau ===
+            Debug.Log("🚦 FASE 4: GROUP B → HIJAU, GROUP A → MERAH");
+            SetGroup(groupB, false, false, true);
+            SetGroup(groupA, true, false, false);
             yield return new WaitForSeconds(greenTime);
 
-            SetGroup(groupB, false, true, false); // kuning
+            // === 5️⃣ Grup B Kuning ===
+            Debug.Log("⚠️ FASE 5: GROUP B → KUNING");
+            SetGroup(groupB, false, true, false);
             yield return new WaitForSeconds(yellowTime);
 
-            SetGroup(groupB, true, false, false); // merah semua
+            // === 6️⃣ Semua Merah Lagi ===
+            Debug.Log("🛑 FASE 6: SEMUA MERAH (CLEAR TIME)");
+            SetGroup(groupA, true, false, false);
+            SetGroup(groupB, true, false, false);
             yield return new WaitForSeconds(allRedTime);
         }
     }
@@ -53,7 +67,12 @@ public class Level1TrafficSystemManager : MonoBehaviour
         foreach (var light in group)
         {
             if (light != null)
+            {
                 light.SetLight(red, yellow, green);
+
+                // Debug warna setiap lampu
+                Debug.Log($"[TrafficLight] {light.name}: RED={red}, YELLOW={yellow}, GREEN={green}, State={light.currentState}");
+            }
         }
     }
 }
