@@ -22,7 +22,7 @@ public class FinishSceneManager : MonoBehaviour
     public Image fadeOverlay;
 
     [Header("Scenes")]
-    public string menuSceneName = "PreGameScene";
+    public string menuSceneName = "MainMenu";
 
     void Start()
     {
@@ -51,10 +51,11 @@ public class FinishSceneManager : MonoBehaviour
     IEnumerator FinishSequence()
     {
         // 1. Tampilkan cerita
-        storyText.text = 
-            "Anda telah berhasil mengantarkan seluruh paket\n" +
-            "dengan selamat dan tepat waktu.\n\n" +
-            "Terima kasih atas kerja keras Anda!";
+       storyText.text =
+    "Anda telah berhasil mengantarkan seluruh paket dengan aman dan tepat waktu.\n" +
+    "Semua kiriman milik Sahroni telah sampai berkat kerja keras dan ketelitian Anda.\n\n" +
+    "Terima kasih atas dedikasi Anda — kota dan Sahroni sangat menghargainya.";
+
 
         yield return new WaitForSeconds(3f);
 

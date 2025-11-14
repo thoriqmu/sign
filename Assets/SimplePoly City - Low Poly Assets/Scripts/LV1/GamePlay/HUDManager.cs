@@ -83,8 +83,8 @@ public class HUDManager : MonoBehaviour
 
         if (timer < 180) starCount = 3;       // < 3 menit
         else if (timer < 300) starCount = 2;  // 3-5 menit
-        else if (timer > 420) starCount = 1;  // 5-7 menit
-        else starCount = 0;                   // > 7 menit
+        else if (timer < 1000) starCount = 1;  // 12 menit
+        else starCount = 0;                   // > 12 menit
 
         for (int i = 0; i < stars.Length; i++)
         {
