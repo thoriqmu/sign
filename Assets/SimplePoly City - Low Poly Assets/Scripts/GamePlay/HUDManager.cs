@@ -126,6 +126,6 @@ public class HUDManager : MonoBehaviour
 
         string starStr = new string('★', starCount) + new string('☆', stars.Length - starCount);
         if (PopupManager.Instance != null)
-            PopupManager.Instance.ShowPopup($"FINISH! Stars: {starStr}");
+            PopupManager.Instance.ShowPopup($"FINISH! ");
     }
 }
