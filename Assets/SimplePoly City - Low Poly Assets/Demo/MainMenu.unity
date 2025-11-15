@@ -136,7 +136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &316108702
 RectTransform:
   m_ObjectHideFlags: 0
@@ -610,6 +610,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 569076482}
+  - component: {fileID: 569076483}
   m_Layer: 5
   m_Name: AboutPanel
   m_TagString: Untagged
@@ -640,6 +641,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0.34900093}
   m_SizeDelta: {x: 645, y: 362.3}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &569076483
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569076481}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &576623432
 GameObject:
   m_ObjectHideFlags: 0
@@ -920,13 +933,14 @@ GameObject:
   - component: {fileID: 659655197}
   - component: {fileID: 659655199}
   - component: {fileID: 659655198}
+  - component: {fileID: 659655200}
   m_Layer: 5
   m_Name: LevelSelectPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &659655197
 RectTransform:
   m_ObjectHideFlags: 0
@@ -989,6 +1003,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 659655196}
   m_CullTransparentMesh: 1
+--- !u!225 &659655200
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659655196}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &809466586
 GameObject:
   m_ObjectHideFlags: 0
@@ -1077,13 +1103,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 820484545}
+  - component: {fileID: 820484546}
   m_Layer: 5
   m_Name: MainPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &820484545
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1108,6 +1135,18 @@ RectTransform:
   m_AnchoredPosition: {x: -2.9911194, y: -23}
   m_SizeDelta: {x: 511.3206, y: 262.6048}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &820484546
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820484544}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &863568070
 GameObject:
   m_ObjectHideFlags: 0
@@ -1263,7 +1302,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &897854038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2414,9 +2453,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 924fe2367d49df748934c023659965e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu
-  mainPanel: {fileID: 820484544}
-  levelSelectPanel: {fileID: 659655196}
-  aboutPanel: {fileID: 569076481}
+  mainPanel: {fileID: 820484546}
+  levelSelectPanel: {fileID: 659655200}
+  aboutPanel: {fileID: 569076483}
   mainBackground: {fileID: 316108701}
   levelBackground: {fileID: 897854037}
   aboutBackground: {fileID: 1719551668}
@@ -2424,6 +2463,7 @@ MonoBehaviour:
   musicSource: {fileID: 1420031108}
   clickSound: {fileID: 8300000, guid: e8249763726da774fb54542ae9292dee, type: 3}
   bgMusic: {fileID: 8300000, guid: 5ac5dc0a0b5bf5546a5789bd99bb860f, type: 3}
+  fadeDuration: 0.1
 --- !u!4 &1420031107
 Transform:
   m_ObjectHideFlags: 0
