@@ -875,6 +875,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PackagePickup
   pickupSound: {fileID: 8300000, guid: fcbc48b73e262394e97332faf080f172, type: 3}
+  pickupEffect: {fileID: 5112403345868107898, guid: 6f34ef0d986e9db4199cf75805f79753, type: 3}
 --- !u!1 &21539496
 GameObject:
   m_ObjectHideFlags: 0
@@ -1414,6 +1415,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PackagePickup
   pickupSound: {fileID: 8300000, guid: fcbc48b73e262394e97332faf080f172, type: 3}
+  pickupEffect: {fileID: 5112403345868107898, guid: 6f34ef0d986e9db4199cf75805f79753, type: 3}
 --- !u!1001 &46095973
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5637,6 +5639,7 @@ MonoBehaviour:
   redSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   yellowSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   greenSound: {fileID: 8300000, guid: f77cfef8248efc04ca9f4f52cc85fac3, type: 3}
+  enableSounds: 1
   currentState: 0
 --- !u!1 &170735188 stripped
 GameObject:
@@ -9913,6 +9916,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PackagePickup
   pickupSound: {fileID: 8300000, guid: fcbc48b73e262394e97332faf080f172, type: 3}
+  pickupEffect: {fileID: 5112403345868107898, guid: 6f34ef0d986e9db4199cf75805f79753, type: 3}
 --- !u!1001 &338026047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10673,6 +10677,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PackagePickup
   pickupSound: {fileID: 8300000, guid: fcbc48b73e262394e97332faf080f172, type: 3}
+  pickupEffect: {fileID: 5112403345868107898, guid: 6f34ef0d986e9db4199cf75805f79753, type: 3}
 --- !u!1 &358418666 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 800befcc62026a34693972077c91698d, type: 3}
@@ -10893,7 +10898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
   penaltyTime: 15
-  audioSource: {fileID: 364300007}
+  audioSource: {fileID: 174683061}
   penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &364300005
 BoxCollider:
@@ -15557,7 +15562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
   penaltyTime: 15
-  audioSource: {fileID: 521082764}
+  audioSource: {fileID: 174683061}
   penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &521082762
 BoxCollider:
@@ -16773,6 +16778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PackagePickup
   pickupSound: {fileID: 8300000, guid: fcbc48b73e262394e97332faf080f172, type: 3}
+  pickupEffect: {fileID: 5112403345868107898, guid: 6f34ef0d986e9db4199cf75805f79753, type: 3}
 --- !u!1001 &557092598
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18501,6 +18507,7 @@ MonoBehaviour:
   redSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   yellowSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   greenSound: {fileID: 8300000, guid: f77cfef8248efc04ca9f4f52cc85fac3, type: 3}
+  enableSounds: 1
   currentState: 0
 --- !u!1001 &609802461
 PrefabInstance:
@@ -18658,6 +18665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PackagePickup
   pickupSound: {fileID: 8300000, guid: fcbc48b73e262394e97332faf080f172, type: 3}
+  pickupEffect: {fileID: 5112403345868107898, guid: 6f34ef0d986e9db4199cf75805f79753, type: 3}
 --- !u!1 &611875467 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 2509cc5763ca17f4598bf61fd585a93e, type: 3}
@@ -26442,6 +26450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PackagePickup
   pickupSound: {fileID: 8300000, guid: fcbc48b73e262394e97332faf080f172, type: 3}
+  pickupEffect: {fileID: 5112403345868107898, guid: 6f34ef0d986e9db4199cf75805f79753, type: 3}
 --- !u!4 &852971722 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4607789021669949657, guid: e22fad9e70ae94d42885f95bddd898ce, type: 3}
@@ -28609,7 +28618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
   penaltyTime: 15
-  audioSource: {fileID: 913576941}
+  audioSource: {fileID: 174683061}
   penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &913576939
 BoxCollider:
@@ -33115,7 +33124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
   penaltyTime: 15
-  audioSource: {fileID: 1042159377}
+  audioSource: {fileID: 174683061}
   penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &1042159375
 BoxCollider:
@@ -34561,6 +34570,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PackagePickup
   pickupSound: {fileID: 8300000, guid: fcbc48b73e262394e97332faf080f172, type: 3}
+  pickupEffect: {fileID: 5112403345868107898, guid: 6f34ef0d986e9db4199cf75805f79753, type: 3}
 --- !u!1 &1092041402 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 2509cc5763ca17f4598bf61fd585a93e, type: 3}
@@ -35329,6 +35339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PackagePickup
   pickupSound: {fileID: 8300000, guid: fcbc48b73e262394e97332faf080f172, type: 3}
+  pickupEffect: {fileID: 5112403345868107898, guid: 6f34ef0d986e9db4199cf75805f79753, type: 3}
 --- !u!1 &1103197568 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b14aef9a05449784da6735de9ec90b24, type: 3}
@@ -35600,6 +35611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PackagePickup
   pickupSound: {fileID: 8300000, guid: fcbc48b73e262394e97332faf080f172, type: 3}
+  pickupEffect: {fileID: 5112403345868107898, guid: 6f34ef0d986e9db4199cf75805f79753, type: 3}
 --- !u!1 &1113644985 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: dac1a631b172e66469fb09e9987bcf57, type: 3}
@@ -38466,6 +38478,7 @@ MonoBehaviour:
   redSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   yellowSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   greenSound: {fileID: 8300000, guid: f77cfef8248efc04ca9f4f52cc85fac3, type: 3}
+  enableSounds: 1
   currentState: 0
 --- !u!1 &1175732060 stripped
 GameObject:
@@ -39825,6 +39838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PackagePickup
   pickupSound: {fileID: 8300000, guid: fcbc48b73e262394e97332faf080f172, type: 3}
+  pickupEffect: {fileID: 5112403345868107898, guid: 6f34ef0d986e9db4199cf75805f79753, type: 3}
 --- !u!1001 &1211618243
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40473,6 +40487,7 @@ MonoBehaviour:
   redSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   yellowSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   greenSound: {fileID: 8300000, guid: f77cfef8248efc04ca9f4f52cc85fac3, type: 3}
+  enableSounds: 1
   currentState: 0
 --- !u!1 &1233257191
 GameObject:
@@ -40980,6 +40995,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PackagePickup
   pickupSound: {fileID: 8300000, guid: fcbc48b73e262394e97332faf080f172, type: 3}
+  pickupEffect: {fileID: 5112403345868107898, guid: 6f34ef0d986e9db4199cf75805f79753, type: 3}
 --- !u!1001 &1247078294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42191,6 +42207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PackagePickup
   pickupSound: {fileID: 8300000, guid: fcbc48b73e262394e97332faf080f172, type: 3}
+  pickupEffect: {fileID: 5112403345868107898, guid: 6f34ef0d986e9db4199cf75805f79753, type: 3}
 --- !u!1001 &1265334817
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44367,6 +44384,7 @@ MonoBehaviour:
   redSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   yellowSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   greenSound: {fileID: 8300000, guid: f77cfef8248efc04ca9f4f52cc85fac3, type: 3}
+  enableSounds: 1
   currentState: 0
 --- !u!1 &1329152723 stripped
 GameObject:
@@ -45831,6 +45849,7 @@ MonoBehaviour:
   redSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   yellowSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   greenSound: {fileID: 8300000, guid: f77cfef8248efc04ca9f4f52cc85fac3, type: 3}
+  enableSounds: 1
   currentState: 0
 --- !u!1001 &1380209526
 PrefabInstance:
@@ -46052,7 +46071,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
   penaltyTime: 15
-  audioSource: {fileID: 1382651694}
+  audioSource: {fileID: 174683061}
   penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &1382651692
 BoxCollider:
@@ -48470,6 +48489,7 @@ MonoBehaviour:
   redSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   yellowSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   greenSound: {fileID: 8300000, guid: f77cfef8248efc04ca9f4f52cc85fac3, type: 3}
+  enableSounds: 1
   currentState: 0
 --- !u!1001 &1428523129
 PrefabInstance:
@@ -50726,6 +50746,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PackagePickup
   pickupSound: {fileID: 8300000, guid: fcbc48b73e262394e97332faf080f172, type: 3}
+  pickupEffect: {fileID: 5112403345868107898, guid: 6f34ef0d986e9db4199cf75805f79753, type: 3}
 --- !u!1 &1486926829 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 120449a04911a924ca1239be382ff0be, type: 3}
@@ -51264,6 +51285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PackagePickup
   pickupSound: {fileID: 8300000, guid: fcbc48b73e262394e97332faf080f172, type: 3}
+  pickupEffect: {fileID: 5112403345868107898, guid: 6f34ef0d986e9db4199cf75805f79753, type: 3}
 --- !u!1 &1508892224
 GameObject:
   m_ObjectHideFlags: 0
@@ -53081,6 +53103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PackagePickup
   pickupSound: {fileID: 8300000, guid: fcbc48b73e262394e97332faf080f172, type: 3}
+  pickupEffect: {fileID: 5112403345868107898, guid: 6f34ef0d986e9db4199cf75805f79753, type: 3}
 --- !u!1001 &1580510322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56006,6 +56029,7 @@ MonoBehaviour:
   redSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   yellowSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   greenSound: {fileID: 8300000, guid: f77cfef8248efc04ca9f4f52cc85fac3, type: 3}
+  enableSounds: 1
   currentState: 0
 --- !u!1 &1645002050 stripped
 GameObject:
@@ -61749,7 +61773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
   penaltyTime: 15
-  audioSource: {fileID: 1773669728}
+  audioSource: {fileID: 174683061}
   penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &1773669726
 BoxCollider:
@@ -66957,7 +66981,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
   penaltyTime: 15
-  audioSource: {fileID: 1909186089}
+  audioSource: {fileID: 174683061}
   penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &1909186087
 BoxCollider:
@@ -68664,6 +68688,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PackagePickup
   pickupSound: {fileID: 8300000, guid: fcbc48b73e262394e97332faf080f172, type: 3}
+  pickupEffect: {fileID: 5112403345868107898, guid: 6f34ef0d986e9db4199cf75805f79753, type: 3}
 --- !u!1001 &1941126634
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70584,6 +70609,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PackagePickup
   pickupSound: {fileID: 8300000, guid: fcbc48b73e262394e97332faf080f172, type: 3}
+  pickupEffect: {fileID: 5112403345868107898, guid: 6f34ef0d986e9db4199cf75805f79753, type: 3}
 --- !u!1 &1987620254 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 0ee37198b24b2164fbbccfbe92fe5d35, type: 3}
@@ -72316,6 +72342,7 @@ MonoBehaviour:
   redSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   yellowSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   greenSound: {fileID: 8300000, guid: f77cfef8248efc04ca9f4f52cc85fac3, type: 3}
+  enableSounds: 1
   currentState: 0
 --- !u!1 &2022941480
 GameObject:
@@ -75492,6 +75519,7 @@ MonoBehaviour:
   redSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   yellowSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   greenSound: {fileID: 8300000, guid: f77cfef8248efc04ca9f4f52cc85fac3, type: 3}
+  enableSounds: 1
   currentState: 0
 --- !u!1001 &2076761387
 PrefabInstance:
@@ -77939,7 +77967,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
   penaltyTime: 15
-  audioSource: {fileID: 2128027847}
+  audioSource: {fileID: 174683061}
   penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &2128027845
 BoxCollider:
@@ -78293,7 +78321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
   penaltyTime: 15
-  audioSource: {fileID: 2133105560}
+  audioSource: {fileID: 174683061}
   penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &2133105558
 BoxCollider:

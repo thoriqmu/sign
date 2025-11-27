@@ -297,8 +297,8 @@ GameObject:
   - component: {fileID: 9133282}
   - component: {fileID: 9133286}
   - component: {fileID: 9133285}
-  - component: {fileID: 9133284}
   - component: {fileID: 9133283}
+  - component: {fileID: 9133287}
   m_Layer: 0
   m_Name: AreaLampuMerah_Bawah
   m_TagString: Untagged
@@ -418,21 +418,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &9133284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9133281}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69aa857ea6b5a0143a6ccc851c181824, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
-  penaltyTime: 15
-  audioSource: {fileID: 9133283}
-  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &9133285
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -467,6 +452,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrafficLightTrigger
   trafficLight: {fileID: 1334080998}
+--- !u!114 &9133287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9133281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0782188115aa79409a90288f2aae2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RedLightTriggerLv4
+  penaltyTime: 15
+  audioSource: {fileID: 9133283}
+  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!1001 &12151943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1055,8 +1055,8 @@ GameObject:
   - component: {fileID: 36863588}
   - component: {fileID: 36863592}
   - component: {fileID: 36863591}
-  - component: {fileID: 36863590}
   - component: {fileID: 36863589}
+  - component: {fileID: 36863593}
   m_Layer: 0
   m_Name: AreaLampuMerah_Atas
   m_TagString: Untagged
@@ -1176,21 +1176,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &36863590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 36863587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69aa857ea6b5a0143a6ccc851c181824, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
-  penaltyTime: 15
-  audioSource: {fileID: 36863589}
-  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &36863591
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1225,6 +1210,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrafficLightTrigger
   trafficLight: {fileID: 1779243410}
+--- !u!114 &36863593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36863587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0782188115aa79409a90288f2aae2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RedLightTriggerLv4
+  penaltyTime: 15
+  audioSource: {fileID: 9133283}
+  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!1 &37548860 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 2509cc5763ca17f4598bf61fd585a93e, type: 3}
@@ -2045,8 +2045,8 @@ GameObject:
   - component: {fileID: 66822952}
   - component: {fileID: 66822956}
   - component: {fileID: 66822955}
-  - component: {fileID: 66822954}
   - component: {fileID: 66822953}
+  - component: {fileID: 66822957}
   m_Layer: 0
   m_Name: AreaLampuMerah_Atas
   m_TagString: Untagged
@@ -2166,21 +2166,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &66822954
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 66822951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69aa857ea6b5a0143a6ccc851c181824, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
-  penaltyTime: 15
-  audioSource: {fileID: 66822953}
-  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &66822955
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2215,6 +2200,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrafficLightTrigger
   trafficLight: {fileID: 2010672049}
+--- !u!114 &66822957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66822951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0782188115aa79409a90288f2aae2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RedLightTriggerLv4
+  penaltyTime: 15
+  audioSource: {fileID: 66822953}
+  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!1001 &66916107
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2925,8 +2925,8 @@ GameObject:
   - component: {fileID: 93746494}
   - component: {fileID: 93746498}
   - component: {fileID: 93746497}
-  - component: {fileID: 93746496}
   - component: {fileID: 93746495}
+  - component: {fileID: 93746499}
   m_Layer: 0
   m_Name: AreaLampuMerah_Kiri
   m_TagString: Untagged
@@ -3046,21 +3046,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &93746496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 93746493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69aa857ea6b5a0143a6ccc851c181824, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
-  penaltyTime: 15
-  audioSource: {fileID: 93746495}
-  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &93746497
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3095,6 +3080,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrafficLightTrigger
   trafficLight: {fileID: 660306379}
+--- !u!114 &93746499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93746493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0782188115aa79409a90288f2aae2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RedLightTriggerLv4
+  penaltyTime: 15
+  audioSource: {fileID: 66822953}
+  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!1001 &94469451
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8895,8 +8895,8 @@ GameObject:
   - component: {fileID: 230282857}
   - component: {fileID: 230282861}
   - component: {fileID: 230282860}
-  - component: {fileID: 230282859}
   - component: {fileID: 230282858}
+  - component: {fileID: 230282862}
   m_Layer: 0
   m_Name: AreaLampuMerah_Atas
   m_TagString: Untagged
@@ -9016,21 +9016,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &230282859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 230282856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69aa857ea6b5a0143a6ccc851c181824, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
-  penaltyTime: 15
-  audioSource: {fileID: 230282858}
-  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &230282860
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9065,6 +9050,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrafficLightTrigger
   trafficLight: {fileID: 1339452439}
+--- !u!114 &230282862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230282856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0782188115aa79409a90288f2aae2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RedLightTriggerLv4
+  penaltyTime: 15
+  audioSource: {fileID: 230282858}
+  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!1 &231406257 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
@@ -11226,8 +11226,8 @@ GameObject:
   - component: {fileID: 306853954}
   - component: {fileID: 306853958}
   - component: {fileID: 306853957}
-  - component: {fileID: 306853956}
   - component: {fileID: 306853955}
+  - component: {fileID: 306853959}
   m_Layer: 0
   m_Name: AreaLampuMerah_Kanan
   m_TagString: Untagged
@@ -11347,21 +11347,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &306853956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 306853953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69aa857ea6b5a0143a6ccc851c181824, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
-  penaltyTime: 15
-  audioSource: {fileID: 306853955}
-  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &306853957
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11396,6 +11381,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrafficLightTrigger
   trafficLight: {fileID: 1676314125}
+--- !u!114 &306853959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306853953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0782188115aa79409a90288f2aae2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RedLightTriggerLv4
+  penaltyTime: 15
+  audioSource: {fileID: 230282858}
+  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!1 &308340695
 GameObject:
   m_ObjectHideFlags: 0
@@ -11498,8 +11498,8 @@ GameObject:
   - component: {fileID: 311238800}
   - component: {fileID: 311238804}
   - component: {fileID: 311238803}
-  - component: {fileID: 311238802}
   - component: {fileID: 311238801}
+  - component: {fileID: 311238805}
   m_Layer: 0
   m_Name: AreaLampuMerah_Kiri
   m_TagString: Untagged
@@ -11619,21 +11619,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &311238802
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 311238799}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69aa857ea6b5a0143a6ccc851c181824, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
-  penaltyTime: 15
-  audioSource: {fileID: 311238801}
-  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &311238803
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11668,6 +11653,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrafficLightTrigger
   trafficLight: {fileID: 1975375099}
+--- !u!114 &311238805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311238799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0782188115aa79409a90288f2aae2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RedLightTriggerLv4
+  penaltyTime: 15
+  audioSource: {fileID: 9133283}
+  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!1001 &312594324
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17712,8 +17712,8 @@ GameObject:
   - component: {fileID: 443642304}
   - component: {fileID: 443642308}
   - component: {fileID: 443642307}
-  - component: {fileID: 443642306}
   - component: {fileID: 443642305}
+  - component: {fileID: 443642309}
   m_Layer: 0
   m_Name: AreaLampuMerah_Kiri
   m_TagString: Untagged
@@ -17833,21 +17833,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &443642306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 443642303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69aa857ea6b5a0143a6ccc851c181824, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
-  penaltyTime: 15
-  audioSource: {fileID: 443642305}
-  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &443642307
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17882,6 +17867,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrafficLightTrigger
   trafficLight: {fileID: 1218989148}
+--- !u!114 &443642309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443642303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0782188115aa79409a90288f2aae2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RedLightTriggerLv4
+  penaltyTime: 15
+  audioSource: {fileID: 66822953}
+  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!1 &445238367 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b8ee657c6800ab849bb30b4375d02323, type: 3}
@@ -19397,8 +19397,8 @@ GameObject:
   - component: {fileID: 483701482}
   - component: {fileID: 483701486}
   - component: {fileID: 483701485}
-  - component: {fileID: 483701484}
   - component: {fileID: 483701483}
+  - component: {fileID: 483701487}
   m_Layer: 0
   m_Name: AreaLampuMerah_Kiri
   m_TagString: Untagged
@@ -19518,21 +19518,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &483701484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 483701481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69aa857ea6b5a0143a6ccc851c181824, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
-  penaltyTime: 15
-  audioSource: {fileID: 483701483}
-  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &483701485
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19567,6 +19552,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrafficLightTrigger
   trafficLight: {fileID: 1016948454}
+--- !u!114 &483701487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483701481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0782188115aa79409a90288f2aae2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RedLightTriggerLv4
+  penaltyTime: 15
+  audioSource: {fileID: 230282858}
+  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!1 &484103017 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b8ee657c6800ab849bb30b4375d02323, type: 3}
@@ -21639,8 +21639,8 @@ GameObject:
   - component: {fileID: 535362530}
   - component: {fileID: 535362534}
   - component: {fileID: 535362533}
-  - component: {fileID: 535362532}
   - component: {fileID: 535362531}
+  - component: {fileID: 535362535}
   m_Layer: 0
   m_Name: AreaLampuMerah_Kanan
   m_TagString: Untagged
@@ -21760,21 +21760,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &535362532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 535362529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69aa857ea6b5a0143a6ccc851c181824, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
-  penaltyTime: 15
-  audioSource: {fileID: 535362531}
-  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &535362533
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21809,6 +21794,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrafficLightTrigger
   trafficLight: {fileID: 928082349}
+--- !u!114 &535362535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535362529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0782188115aa79409a90288f2aae2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RedLightTriggerLv4
+  penaltyTime: 15
+  audioSource: {fileID: 66822953}
+  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!1001 &535717263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43795,8 +43795,8 @@ GameObject:
   - component: {fileID: 1131118817}
   - component: {fileID: 1131118821}
   - component: {fileID: 1131118820}
-  - component: {fileID: 1131118819}
   - component: {fileID: 1131118818}
+  - component: {fileID: 1131118822}
   m_Layer: 0
   m_Name: AreaLampuMerah_Bawah
   m_TagString: Untagged
@@ -43916,21 +43916,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1131118819
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131118816}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69aa857ea6b5a0143a6ccc851c181824, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
-  penaltyTime: 15
-  audioSource: {fileID: 1131118818}
-  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &1131118820
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43965,6 +43950,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrafficLightTrigger
   trafficLight: {fileID: 1867583976}
+--- !u!114 &1131118822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131118816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0782188115aa79409a90288f2aae2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RedLightTriggerLv4
+  penaltyTime: 15
+  audioSource: {fileID: 66822953}
+  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!1001 &1131260829
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48512,8 +48512,8 @@ GameObject:
   - component: {fileID: 1228133356}
   - component: {fileID: 1228133360}
   - component: {fileID: 1228133359}
-  - component: {fileID: 1228133358}
   - component: {fileID: 1228133357}
+  - component: {fileID: 1228133361}
   m_Layer: 0
   m_Name: AreaLampuMerah_Kanan
   m_TagString: Untagged
@@ -48633,21 +48633,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1228133358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1228133355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69aa857ea6b5a0143a6ccc851c181824, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
-  penaltyTime: 15
-  audioSource: {fileID: 1228133357}
-  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &1228133359
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48682,6 +48667,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrafficLightTrigger
   trafficLight: {fileID: 1318363363}
+--- !u!114 &1228133361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228133355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0782188115aa79409a90288f2aae2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RedLightTriggerLv4
+  penaltyTime: 15
+  audioSource: {fileID: 66822953}
+  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!1001 &1229369315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50366,8 +50366,8 @@ GameObject:
   - component: {fileID: 1280279311}
   - component: {fileID: 1280279315}
   - component: {fileID: 1280279314}
-  - component: {fileID: 1280279313}
   - component: {fileID: 1280279312}
+  - component: {fileID: 1280279316}
   m_Layer: 0
   m_Name: AreaLampuMerah_Kanan
   m_TagString: Untagged
@@ -50487,21 +50487,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1280279313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1280279310}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69aa857ea6b5a0143a6ccc851c181824, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
-  penaltyTime: 15
-  audioSource: {fileID: 1280279312}
-  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &1280279314
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50536,6 +50521,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrafficLightTrigger
   trafficLight: {fileID: 795623210}
+--- !u!114 &1280279316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280279310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0782188115aa79409a90288f2aae2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RedLightTriggerLv4
+  penaltyTime: 15
+  audioSource: {fileID: 66822953}
+  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!1 &1280644516 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 66131d8838f42f545a30ce8606ce5365, type: 3}
@@ -54563,10 +54563,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1259229856}
     m_Modifications:
-    - target: {fileID: 2300000, guid: ce2dd4bb67fdc684dac928dc2cfb7a0f, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: 24c20333a6b79874298a79151051f9fa, type: 2}
     - target: {fileID: 100010, guid: 675baac8bae68964e948aabc6ff2857c, type: 3}
       propertyPath: m_Name
       value: Vehicle_Pick up Truck_color03_separate
@@ -54611,6 +54607,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: ce2dd4bb67fdc684dac928dc2cfb7a0f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 24c20333a6b79874298a79151051f9fa, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -61057,8 +61057,8 @@ GameObject:
   - component: {fileID: 1509449162}
   - component: {fileID: 1509449166}
   - component: {fileID: 1509449165}
-  - component: {fileID: 1509449164}
   - component: {fileID: 1509449163}
+  - component: {fileID: 1509449167}
   m_Layer: 0
   m_Name: AreaLampuMerah_Kiri
   m_TagString: Untagged
@@ -61178,21 +61178,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1509449164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1509449161}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69aa857ea6b5a0143a6ccc851c181824, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
-  penaltyTime: 15
-  audioSource: {fileID: 1509449163}
-  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &1509449165
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61227,6 +61212,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrafficLightTrigger
   trafficLight: {fileID: 1724184563}
+--- !u!114 &1509449167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509449161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0782188115aa79409a90288f2aae2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RedLightTriggerLv4
+  penaltyTime: 15
+  audioSource: {fileID: 66822953}
+  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!1 &1509895419 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 120449a04911a924ca1239be382ff0be, type: 3}
@@ -76395,8 +76395,8 @@ GameObject:
   - component: {fileID: 1850149141}
   - component: {fileID: 1850149145}
   - component: {fileID: 1850149144}
-  - component: {fileID: 1850149143}
   - component: {fileID: 1850149142}
+  - component: {fileID: 1850149146}
   m_Layer: 0
   m_Name: AreaLampuMerah_Kiri
   m_TagString: Untagged
@@ -76516,21 +76516,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1850149143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1850149140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69aa857ea6b5a0143a6ccc851c181824, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
-  penaltyTime: 15
-  audioSource: {fileID: 1850149142}
-  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &1850149144
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -76565,6 +76550,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrafficLightTrigger
   trafficLight: {fileID: 1960864037}
+--- !u!114 &1850149146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850149140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0782188115aa79409a90288f2aae2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RedLightTriggerLv4
+  penaltyTime: 15
+  audioSource: {fileID: 66822953}
+  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!1 &1850652654 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 2d5fb229ae2945742b900a405a5e7a0b, type: 3}
@@ -76709,8 +76709,8 @@ GameObject:
   - component: {fileID: 1853455859}
   - component: {fileID: 1853455863}
   - component: {fileID: 1853455862}
-  - component: {fileID: 1853455861}
   - component: {fileID: 1853455860}
+  - component: {fileID: 1853455864}
   m_Layer: 0
   m_Name: AreaLampuMerah_Bawah
   m_TagString: Untagged
@@ -76830,21 +76830,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1853455861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1853455858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69aa857ea6b5a0143a6ccc851c181824, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
-  penaltyTime: 15
-  audioSource: {fileID: 1853455860}
-  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &1853455862
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -76879,6 +76864,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrafficLightTrigger
   trafficLight: {fileID: 1922610363}
+--- !u!114 &1853455864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853455858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0782188115aa79409a90288f2aae2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RedLightTriggerLv4
+  penaltyTime: 15
+  audioSource: {fileID: 66822953}
+  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!1 &1857656863 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 8fa324388c16b5c4eac9846338b35b17, type: 3}
@@ -78059,8 +78059,8 @@ GameObject:
   - component: {fileID: 1889856943}
   - component: {fileID: 1889856942}
   - component: {fileID: 1889856941}
-  - component: {fileID: 1889856940}
   - component: {fileID: 1889856939}
+  - component: {fileID: 1889856944}
   m_Layer: 0
   m_Name: AreaLampuMerah_Atas
   m_TagString: Untagged
@@ -78165,21 +78165,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1889856940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1889856938}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69aa857ea6b5a0143a6ccc851c181824, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
-  penaltyTime: 15
-  audioSource: {fileID: 1889856939}
-  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &1889856941
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -78229,6 +78214,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2140073947}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1889856944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889856938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0782188115aa79409a90288f2aae2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RedLightTriggerLv4
+  penaltyTime: 15
+  audioSource: {fileID: 66822953}
+  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!1 &1891690087 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 120449a04911a924ca1239be382ff0be, type: 3}
@@ -85793,8 +85793,8 @@ GameObject:
   - component: {fileID: 2038421234}
   - component: {fileID: 2038421238}
   - component: {fileID: 2038421237}
-  - component: {fileID: 2038421236}
   - component: {fileID: 2038421235}
+  - component: {fileID: 2038421239}
   m_Layer: 0
   m_Name: AreaLampuMerah_Atas
   m_TagString: Untagged
@@ -85914,21 +85914,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &2038421236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2038421233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69aa857ea6b5a0143a6ccc851c181824, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RedLightTrigger
-  penaltyTime: 15
-  audioSource: {fileID: 2038421235}
-  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!65 &2038421237
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -85963,6 +85948,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrafficLightTrigger
   trafficLight: {fileID: 1960180764}
+--- !u!114 &2038421239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038421233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0782188115aa79409a90288f2aae2d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RedLightTriggerLv4
+  penaltyTime: 15
+  audioSource: {fileID: 66822953}
+  penaltySound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
 --- !u!1001 &2039547107
 PrefabInstance:
   m_ObjectHideFlags: 0

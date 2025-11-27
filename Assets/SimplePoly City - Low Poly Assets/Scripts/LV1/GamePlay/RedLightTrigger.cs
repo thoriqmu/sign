@@ -19,7 +19,7 @@ public class RedLightTrigger : MonoBehaviour
 
             if (light != null && light.IsRed())
             {
-                HudManagerLv4.Instance.AddPenalty(penaltyTime, "Lampu Merah! ");
+                HUDManager.Instance.AddPenalty(penaltyTime, "Lampu Merah! ");
                 penalized = true;
 
                 if (audioSource != null && penaltySound != null)

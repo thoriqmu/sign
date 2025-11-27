@@ -45,7 +45,7 @@ EditorBuildSettings:
     path: Assets/SimplePoly City - Low Poly Assets/Demo/Level 3.unity
     guid: 16d89ce5ef40aa742a8b77b2bb61d641
   - enabled: 1
-    path: Assets/SimplePoly City - Low Poly Assets/Demo/LV4/PreGameSceneLv4.unity
+    path: Assets/SimplePoly City - Low Poly Assets/Demo/LV4/PreGameSceneLV4.unity
     guid: 6c775a66c6e4a4946837ab80c3d25690
   - enabled: 1
     path: Assets/SimplePoly City - Low Poly Assets/Demo/LV4/RuleScenesLv4.unity
