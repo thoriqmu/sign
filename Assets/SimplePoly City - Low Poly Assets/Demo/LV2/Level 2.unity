@@ -5828,6 +5828,7 @@ MonoBehaviour:
   redSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   yellowSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   greenSound: {fileID: 8300000, guid: f77cfef8248efc04ca9f4f52cc85fac3, type: 3}
+  enableSounds: 1
   currentState: 0
 --- !u!1 &170735188 stripped
 GameObject:
@@ -19319,6 +19320,7 @@ MonoBehaviour:
   redSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   yellowSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   greenSound: {fileID: 8300000, guid: f77cfef8248efc04ca9f4f52cc85fac3, type: 3}
+  enableSounds: 1
   currentState: 0
 --- !u!1001 &609802461
 PrefabInstance:
@@ -26469,6 +26471,7 @@ MonoBehaviour:
   redSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   yellowSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   greenSound: {fileID: 8300000, guid: f77cfef8248efc04ca9f4f52cc85fac3, type: 3}
+  enableSounds: 1
   currentState: 0
 --- !u!1 &822543476 stripped
 GameObject:
@@ -39084,6 +39087,7 @@ MonoBehaviour:
   redSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   yellowSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   greenSound: {fileID: 8300000, guid: f77cfef8248efc04ca9f4f52cc85fac3, type: 3}
+  enableSounds: 1
   currentState: 0
 --- !u!1 &1175732060 stripped
 GameObject:
@@ -41679,6 +41683,7 @@ MonoBehaviour:
   redSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   yellowSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   greenSound: {fileID: 8300000, guid: f77cfef8248efc04ca9f4f52cc85fac3, type: 3}
+  enableSounds: 1
   currentState: 0
 --- !u!1 &1233257191
 GameObject:
@@ -45148,6 +45153,7 @@ MonoBehaviour:
   redSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   yellowSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   greenSound: {fileID: 8300000, guid: f77cfef8248efc04ca9f4f52cc85fac3, type: 3}
+  enableSounds: 1
   currentState: 0
 --- !u!1 &1329152723 stripped
 GameObject:
@@ -46941,6 +46947,7 @@ MonoBehaviour:
   redSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   yellowSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   greenSound: {fileID: 8300000, guid: f77cfef8248efc04ca9f4f52cc85fac3, type: 3}
+  enableSounds: 1
   currentState: 0
 --- !u!1001 &1380209526
 PrefabInstance:
@@ -48893,7 +48900,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -49565,6 +49572,7 @@ MonoBehaviour:
   redSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   yellowSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   greenSound: {fileID: 8300000, guid: f77cfef8248efc04ca9f4f52cc85fac3, type: 3}
+  enableSounds: 1
   currentState: 0
 --- !u!1001 &1428523129
 PrefabInstance:
@@ -57385,6 +57393,7 @@ MonoBehaviour:
   redSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   yellowSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   greenSound: {fileID: 8300000, guid: f77cfef8248efc04ca9f4f52cc85fac3, type: 3}
+  enableSounds: 1
   currentState: 0
 --- !u!1 &1645002050 stripped
 GameObject:
@@ -73460,6 +73469,7 @@ MonoBehaviour:
   redSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   yellowSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   greenSound: {fileID: 8300000, guid: f77cfef8248efc04ca9f4f52cc85fac3, type: 3}
+  enableSounds: 1
   currentState: 0
 --- !u!1 &2022941480
 GameObject:
@@ -76530,6 +76540,7 @@ MonoBehaviour:
   redSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   yellowSound: {fileID: 8300000, guid: 3170415ecc7bd6646a53b30d28d3355d, type: 3}
   greenSound: {fileID: 8300000, guid: f77cfef8248efc04ca9f4f52cc85fac3, type: 3}
+  enableSounds: 1
   currentState: 0
 --- !u!1001 &2076761387
 PrefabInstance:
