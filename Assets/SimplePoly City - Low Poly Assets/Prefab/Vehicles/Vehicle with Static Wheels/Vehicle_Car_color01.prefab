@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 400000}
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
-  - component: {fileID: 6743363689374568163}
   - component: {fileID: -4806983391611602493}
   - component: {fileID: -6006934499586229662}
+  - component: {fileID: 6743363689374568163}
   - component: {fileID: 560142858868994244}
   m_Layer: 0
   m_Name: Vehicle_Car_color01
@@ -93,24 +93,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &6743363689374568163
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e51ee399a3175c7449db9153fd40a705, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NPCCar
-  maxSpeed: 12
-  currentSpeed: 0
-  safeDistance: 30
-  brakeStrength: 5
-  waypointManager: {fileID: 0}
-  spawner: {fileID: 0}
 --- !u!54 &-4806983391611602493
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -159,6 +141,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.9580617, y: 2.1952403, z: 6.3205423}
   m_Center: {x: -0.0029785037, y: 1.0939842, z: -0.19415748}
+--- !u!114 &6743363689374568163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e51ee399a3175c7449db9153fd40a705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPCCar
+  maxSpeed: 14
+  currentSpeed: 0
+  safeDistance: 30
+  brakeStrength: 5
+  waypointManager: {fileID: 0}
+  spawner: {fileID: 0}
 --- !u!114 &560142858868994244
 MonoBehaviour:
   m_ObjectHideFlags: 0
