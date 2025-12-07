@@ -457,7 +457,7 @@ GameObject:
   - component: {fileID: -192300219654979718}
   - component: {fileID: 6310032022909414401}
   - component: {fileID: -2795046720060655638}
-  - component: {fileID: -4361821556868973922}
+  - component: {fileID: -7032127169972468244}
   m_Layer: 6
   m_Name: Vehicle_Ambulance_separate
   m_TagString: NPC
@@ -587,7 +587,7 @@ MonoBehaviour:
   wheelRR: {fileID: 400000}
   wheelRadius: 0.35
   maxSteerAngle: 30
---- !u!65 &-4361821556868973922
+--- !u!65 &-7032127169972468244
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -606,5 +606,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 2.933593, y: 2.9494567, z: 6.808762}
+  m_Center: {x: -0.0010515451, y: 1.4745896, z: 0.052737713}

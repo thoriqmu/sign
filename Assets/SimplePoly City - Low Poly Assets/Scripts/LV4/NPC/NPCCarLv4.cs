@@ -53,6 +53,8 @@ public class NPCCarLv4 : MonoBehaviour
         CheckObstacle();
         MoveCar();
         AnimateWheels(); // Panggil fungsi animasi roda
+        
+        rb.AddForce(-transform.up * 50f, ForceMode.Acceleration);
     }
 
     void MoveCar()

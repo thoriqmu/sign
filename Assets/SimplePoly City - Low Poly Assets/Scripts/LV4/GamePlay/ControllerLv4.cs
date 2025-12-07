@@ -205,7 +205,7 @@ else
 
 
         // ========= 2. CEK NPC UNTUK DAMAGE =========
-        NPCCar npc = collision.collider.GetComponent<NPCCar>();
+        NPCCarLv4 npc = collision.collider.GetComponent<NPCCarLv4>();
         if (npc == null)
             return;  // kalau bukan NPC, selesai sampai di sini (tidak tambah hit)
 

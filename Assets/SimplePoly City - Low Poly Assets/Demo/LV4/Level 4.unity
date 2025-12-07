@@ -63288,8 +63288,8 @@ MonoBehaviour:
   wheelRR: {fileID: 1461467906}
   wheelRadius: 0.35
   maxSteerAngle: 30
-  maxHits: 2
-  gameOverScene: GameOverScene
+  maxHits: 3
+  gameOverScene: GameOverSceneLv4
 --- !u!1 &1732007032 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 800befcc62026a34693972077c91698d, type: 3}
