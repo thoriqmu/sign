@@ -155,7 +155,7 @@ public class Controller : MonoBehaviour
 
 
         // ========= 2. CEK NPC UNTUK DAMAGE =========
-        NPCCar npc = collision.collider.GetComponent<NPCCar>();
+        NPCCarLv1 npc = collision.collider.GetComponent<NPCCarLv1>();
         if (npc == null)
             return;  // kalau bukan NPC, selesai sampai di sini (tidak tambah hit)
 
