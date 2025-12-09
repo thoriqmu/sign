@@ -355,7 +355,7 @@ RectTransform:
   m_GameObject: {fileID: 620138382}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1167318045}
@@ -365,7 +365,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 144.55, y: 36.835}
+  m_AnchoredPosition: {x: 643, y: 722}
   m_SizeDelta: {x: 289.11, y: 73.66916}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &648885835
@@ -720,7 +720,7 @@ RectTransform:
   m_GameObject: {fileID: 818947532}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1367221045}
@@ -730,7 +730,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 144.56, y: 138.65}
+  m_AnchoredPosition: {x: 643, y: -74}
   m_SizeDelta: {x: 289.11044, y: 76.55791}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &895599280
@@ -1216,14 +1216,14 @@ RectTransform:
   m_GameObject: {fileID: 1199409404}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 648885840}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -23, y: -160}
+  m_AnchoredPosition: {x: -119, y: -743.22}
   m_SizeDelta: {x: 128.3182, y: 34.2107}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1199409406
@@ -1273,8 +1273,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 48
+  m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1382,7 +1382,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Setiap kali melakukan pelanggaran, waktu akan bertambah 15 detik.
+  m_text: 'Setiap kali melakukan pelanggaran, waktu akan bertambah 15 detik.
+
+
+    Setiap
+    kali melanggar Rambu Stop, waktu akan bertambah 3 detik'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1632,8 +1636,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 28.984907, y: -0.8768158}
-  m_SizeDelta: {x: 361.1779, y: 96.8459}
+  m_AnchoredPosition: {x: 28.984907, y: -20.9915}
+  m_SizeDelta: {x: 361.1779, y: 137.0753}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1367221046
 MonoBehaviour:
@@ -1776,8 +1780,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -16.7072, y: 0.0012054}
-  m_SizeDelta: {x: 283.6957, y: 164.96}
+  m_AnchoredPosition: {x: -19.9072, y: -13.256193}
+  m_SizeDelta: {x: 277.2956, y: 191.4748}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1382374035
 MonoBehaviour:
@@ -1913,7 +1917,7 @@ RectTransform:
   m_GameObject: {fileID: 1495097021}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2134916102}
@@ -1921,7 +1925,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 285.57, y: -160}
+  m_AnchoredPosition: {x: 1322, y: -738}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1495097023
@@ -2043,7 +2047,7 @@ RectTransform:
   m_GameObject: {fileID: 1672149844}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1382374034}
@@ -2053,7 +2057,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -194.53, y: 94.45043}
+  m_AnchoredPosition: {x: -1004, y: 508}
   m_SizeDelta: {x: 289.10822, y: 164.95546}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1674532487
@@ -2363,7 +2367,7 @@ RectTransform:
   m_GameObject: {fileID: 1912184796}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 648885840}
@@ -2677,7 +2681,11 @@ MonoBehaviour:
     menerobos lampu merah
 
 
-    Dilarang melawan arah'
+    Dilarang melawan arah
+
+
+    Patuhi Rambu Lalu lintas
+    yang ada'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3014,14 +3022,14 @@ RectTransform:
   m_GameObject: {fileID: 2059989704}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 648885840}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.2736, y: -172.78}
+  m_AnchoredPosition: {x: -44, y: -756}
   m_SizeDelta: {x: 179.5664, y: 59.763}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2059989706
@@ -3155,7 +3163,7 @@ RectTransform:
   m_GameObject: {fileID: 2119426964}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1858706237}
@@ -3165,7 +3173,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -191.37164, y: -46}
+  m_AnchoredPosition: {x: -1007.2, y: -306}
   m_SizeDelta: {x: 295.4267, y: 73.6692}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2134916101

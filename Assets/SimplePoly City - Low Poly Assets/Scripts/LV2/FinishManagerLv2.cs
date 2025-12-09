@@ -53,8 +53,8 @@ public class FinishSceneManagerLv2 : MonoBehaviour
         // --- STORY tampil ---
         storyText.text =
         "Anda telah berhasil mengantarkan seluruh paket dengan aman dan tepat waktu.\n" +
-        "Semua kiriman milik Sahroni telah sampai berkat kerja keras dan ketelitian Anda.\n\n" +
-        "Terima kasih atas dedikasi Anda — kota dan Sahroni sangat menghargainya.";
+        "Semua kiriman milik Megachan telah sampai berkat kerja keras dan ketelitian Anda.\n\n" +
+        "Terima kasih atas dedikasi Anda — kota dan Megachan sangat menghargainya.";
 
         // ▶ Play 1x saat story muncul
         if (panelSound != null) 

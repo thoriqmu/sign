@@ -22676,7 +22676,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 233.63
+      value: 232
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1af0a2c8773f85c40bdb120f32cd8a8a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -22741,7 +22741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5464b5f7dfc001d419eb982bcc1ddd5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Controller
-  speed: 13
+  speed: 14
   sprintMultiplier: 1.5
   rotationSpeed: 120
   acceleration: 4

@@ -23,7 +23,7 @@ public class HudManagerLv2 : MonoBehaviour
     [HideInInspector] public bool allPackagesCollected = false;
 
     private bool finished = false;
-    private Controller playerController;
+    private ControllerLv2 playerController;
 
     [Header("Sound Settings")]
     public AudioSource bgmSource;
@@ -35,7 +35,7 @@ public class HudManagerLv2 : MonoBehaviour
 
     void Start()
     {
-        playerController = Controller.Instance;
+        playerController = ControllerLv2.Instance;
 
         // Play BGM fade-in
         if (bgmSource != null && backgroundMusic != null)
