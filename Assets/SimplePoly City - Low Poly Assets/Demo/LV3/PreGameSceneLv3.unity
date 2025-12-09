@@ -278,7 +278,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 648885843}
-        m_TargetAssemblyTypeName: PreGameManagerLv2, Assembly-CSharp
+        m_TargetAssemblyTypeName: PreGameManagerLv3, Assembly-CSharp
         m_MethodName: BackToMenu
         m_Mode: 1
         m_Arguments:
@@ -422,6 +422,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -775,16 +776,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 648885835}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ed9f8746fbcba645ae750382a252843, type: 3}
+  m_Script: {fileID: 11500000, guid: aa97e09a2e0716d4cbda0cd3f5652882, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PreGameManagerLv2
-  gameplaySceneName: Level 2
+  m_EditorClassIdentifier: Assembly-CSharp::PreGameManagerLv3
+  gameplaySceneName: Level 3
   menuSceneName: MainMenu
-  ruleSceneName: RuleScenesLv2
+  ruleSceneName: RuleScenesLv3
   musicSource: {fileID: 648885842}
   soundtrack: {fileID: 8300000, guid: 8b4ff56f182f07a428781a6b3c0fb050, type: 3}
   musicFadeDuration: 1.5
-  sfxSource: {fileID: 648885841}
+  sfxSource: {fileID: 648885842}
   buttonClickSound: {fileID: 8300000, guid: e8249763726da774fb54542ae9292dee, type: 3}
 --- !u!1 &992262993
 GameObject:
@@ -1058,6 +1059,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1183,7 +1185,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 648885843}
-        m_TargetAssemblyTypeName: PreGameManagerLv2, Assembly-CSharp
+        m_TargetAssemblyTypeName: PreGameManagerLv3, Assembly-CSharp
         m_MethodName: RulesMenu
         m_Mode: 1
         m_Arguments:
@@ -1328,6 +1330,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1556,6 +1559,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
