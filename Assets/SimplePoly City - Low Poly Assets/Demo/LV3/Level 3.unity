@@ -727,7 +727,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTriggerLv3
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 11300085}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
@@ -3634,7 +3634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTriggerLv3
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 93976586}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
@@ -7229,7 +7229,7 @@ Transform:
   m_GameObject: {fileID: 218629673}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 216.1, y: 0, z: -106.1}
+  m_LocalPosition: {x: 223.7, y: 0, z: -106.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9766,8 +9766,8 @@ Transform:
   m_GameObject: {fileID: 286278309}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -159.3, y: 0, z: -8.8}
-  m_LocalScale: {x: 80, y: 10, z: 40}
+  m_LocalPosition: {x: -61.1, y: 0, z: 5.7}
+  m_LocalScale: {x: 15, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1908625541}
@@ -19264,7 +19264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTriggerLv3
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 559818000}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
@@ -22531,7 +22531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTriggerLv3
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 637551438}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
@@ -35809,6 +35809,59 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 206965779}
   m_SourcePrefab: {fileID: 100100000, guid: 0b6fafa63b69b174584365f2641586a4, type: 3}
+--- !u!1 &1114473546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1114473547}
+  - component: {fileID: 1114473548}
+  m_Layer: 0
+  m_Name: Tembok Gaib (29)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1114473547
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114473546}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -174.3, y: 0, z: -8.8}
+  m_LocalScale: {x: 70, y: 10, z: 40}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1908625541}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1114473548
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114473546}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1118138316
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42403,6 +42456,59 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 591327310}
   m_SourcePrefab: {fileID: 100100000, guid: 4f32dfddb033d3e40b5841bc53cc1689, type: 3}
+--- !u!1 &1295696268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1295696269}
+  - component: {fileID: 1295696270}
+  m_Layer: 0
+  m_Name: Tembok Gaib (30)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1295696269
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295696268}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -61.1, y: 0, z: -24}
+  m_LocalScale: {x: 15, y: 10, z: 10}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1908625541}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1295696270
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295696268}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1296976524 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 8b680e0f7699a254c84ed6737b7eb53d, type: 3}
@@ -46507,7 +46613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTriggerLv3
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 1425067961}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
@@ -58394,6 +58500,59 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: ab761d05302615348a9aed34ccd58dd7, type: 3}
+--- !u!1 &1742423800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1742423801}
+  - component: {fileID: 1742423802}
+  m_Layer: 0
+  m_Name: Tembok Gaib (31)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1742423801
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742423800}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -61.7, y: 0, z: -10.9}
+  m_LocalScale: {x: 10, y: 10, z: 25}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1908625541}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1742423802
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742423800}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1744752147
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64059,8 +64218,12 @@ Transform:
   - {fileID: 2073265007}
   - {fileID: 2084134675}
   - {fileID: 286278310}
+  - {fileID: 1295696269}
+  - {fileID: 1742423801}
+  - {fileID: 1114473547}
   - {fileID: 1632178029}
   - {fileID: 1771951622}
+  - {fileID: 2122625034}
   - {fileID: 471743327}
   m_Father: {fileID: 1444670372}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -64792,7 +64955,7 @@ Transform:
   m_GameObject: {fileID: 1933643512}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -65444,7 +65607,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTriggerLv3
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 1937887680}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
@@ -71489,7 +71652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTriggerLv3
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 2120326259}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
@@ -71806,6 +71969,59 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1435881087}
   m_SourcePrefab: {fileID: 100100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}
+--- !u!1 &2122625033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2122625034}
+  - component: {fileID: 2122625035}
+  m_Layer: 0
+  m_Name: Tembok Gaib (32)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2122625034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122625033}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -59, y: 0, z: -62.5}
+  m_LocalScale: {x: 10, y: 10, z: 27}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1908625541}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2122625035
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122625033}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3, y: 3, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2122799861 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 0ee6d569ec3227e40888e8151b331e0f, type: 3}

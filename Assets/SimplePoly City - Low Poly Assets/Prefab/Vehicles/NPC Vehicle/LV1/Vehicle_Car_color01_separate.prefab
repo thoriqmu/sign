@@ -572,7 +572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 104590adcd1500842ad81e4f3733c5a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCCarLv1
-  speed: 12
+  speed: 13
   rotationSpeed: 5
   arrivalDistance: 1.5
   currentNode: {fileID: 0}

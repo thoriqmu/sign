@@ -8227,7 +8227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTrigger
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 247798394}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
@@ -15977,7 +15977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTrigger
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 247798394}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
@@ -24708,7 +24708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTrigger
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 247798394}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
@@ -40549,7 +40549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTrigger
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 247798394}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
@@ -40873,7 +40873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTrigger
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 247798394}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
@@ -46187,7 +46187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTrigger
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 247798394}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
@@ -52798,7 +52798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTrigger
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 247798394}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
@@ -57866,7 +57866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTrigger
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 247798394}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
@@ -64307,7 +64307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTrigger
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 247798394}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
@@ -64479,7 +64479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTrigger
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 247798394}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}

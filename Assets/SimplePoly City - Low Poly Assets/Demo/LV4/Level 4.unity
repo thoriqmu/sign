@@ -23062,8 +23062,8 @@ MonoBehaviour:
   - {fileID: 1616406060653692748, guid: f71041fd118fbb34aa9d2dd6a1d96fce, type: 3}
   - {fileID: 5986958801767457440, guid: 87a7b985b15a4244091de35d7df9169a, type: 3}
   startNode: {fileID: 2053355207}
-  minSpawnTime: 13
-  maxSpawnTime: 18
+  minSpawnTime: 15
+  maxSpawnTime: 20
 --- !u!1 &638036232 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 8b680e0f7699a254c84ed6737b7eb53d, type: 3}
@@ -38522,7 +38522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpeedLimitZoneLv4
   speedLimitKmh: 40
-  penaltyTime: 10
+  penaltyTime: 5
   checkInterval: 2
   giveOnce: 0
   audioSource: {fileID: 0}
@@ -39453,7 +39453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTriggerLv4
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 1118266270}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
@@ -57060,7 +57060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTriggerLv4
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 1534260115}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
@@ -63056,7 +63056,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTriggerLv4
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 1680966785}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
@@ -68115,7 +68115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTriggerLv4
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 1802468595}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
@@ -69309,7 +69309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTriggerLv4
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 1831543167}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}
@@ -75739,8 +75739,8 @@ MonoBehaviour:
   - {fileID: 1616406060653692748, guid: f71041fd118fbb34aa9d2dd6a1d96fce, type: 3}
   - {fileID: 5986958801767457440, guid: 87a7b985b15a4244091de35d7df9169a, type: 3}
   startNode: {fileID: 1403023251}
-  minSpawnTime: 8
-  maxSpawnTime: 14
+  minSpawnTime: 15
+  maxSpawnTime: 20
 --- !u!1 &1985110531 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 2509cc5763ca17f4598bf61fd585a93e, type: 3}
@@ -82208,7 +82208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StopSignTriggerLv4
   requiredStopTime: 3
-  penaltyTime: 6
+  penaltyTime: 3
   stopSpeedThreshold: 0.2
   audioSource: {fileID: 2108905688}
   sidewalkSound: {fileID: 8300000, guid: 657c4598c2d72aa419deab4c16433077, type: 3}

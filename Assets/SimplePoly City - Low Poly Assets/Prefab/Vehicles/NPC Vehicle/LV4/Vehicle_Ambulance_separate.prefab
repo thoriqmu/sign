@@ -576,7 +576,7 @@ MonoBehaviour:
   rotationSpeed: 5
   arrivalDistance: 1.5
   currentNode: {fileID: 0}
-  sensorLength: 7
+  sensorLength: 5
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 192

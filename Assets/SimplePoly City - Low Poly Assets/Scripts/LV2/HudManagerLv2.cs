@@ -142,7 +142,7 @@ public class HudManagerLv2 : MonoBehaviour
     IEnumerator LoadFinishSceneAfter(float delay)
     {
         yield return new WaitForSeconds(delay);
-        UnityEngine.SceneManagement.SceneManager.LoadScene("FinishScene");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("FinishSceneLv2");
     }
 
     // ================================
